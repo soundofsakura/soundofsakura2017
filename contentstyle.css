@@ -1,0 +1,210 @@
+#intro fieldset{
+	font-size: 1em;
+	font-family: inherit;
+	font-weight: inherit;
+	text-align: justify;
+	text-decoration: inherit;
+	color: inherit;
+	box-sizing: border-box;
+}
+.contenttitlebackground{
+	display: inline-block;
+	height: 2em;
+	max-width: 100%;
+	padding: 0.5em 1em;
+	margin: 16px 16px;
+	border-radius: 1em;
+	color: rgb(255, 255, 255);
+	font-size: 1.2em;
+	line-height: 1;
+	border-color: rgb(250, 127, 187);
+	box-sizing: border-box;
+	background-color: rgb(250, 127, 187);
+}
+#harmonica .row{
+	margin: auto;
+}
+#harmonica #harmonicaimg{
+	margin: auto;
+}
+#harmonica .row div{
+	padding-top: 20px;
+}
+#harmonica .imgtitle{
+	text-align: center;
+	font-size: 1.5em;
+	color: #111;
+	margin-bottom: 20px;
+}
+#harmonica img{
+	display: block;
+	margin: auto;
+	width: 70%;
+	max-height: 250px;
+}
+#harmonica .imgintro{
+	line-height: 1em;
+	font-size: 1.1em;
+	margin: 25px 0 0;
+	color: #222;
+}
+#concert .row{
+	margin: auto;
+}
+#concert #concertimg{
+	margin: auto;
+}
+#concert .row div{
+	padding-top: 20px;
+}
+#concert img{
+	display: block;
+	margin: auto;
+	width: 230px;
+	height: 320px;
+}
+#historycontent{
+	padding-top: 10px;
+}
+#historycontent a{
+	color: #0044f7;
+}
+#historycontent a:hover{
+	text-decoration: underline;
+}
+#history .section{
+	border: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+#history .section-1{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-top: 0.7em;
+	padding-right: 0.5em;
+	font-size: 1em;
+	font-family: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	color: #494949;
+	box-sizing: border-box;
+}
+#history .section-1 .section-1-1{
+	text-align: right;
+	padding-right: 15%;
+}
+#history .section-1-1{
+	box-sizing: border-box;
+}
+#history .section-2{
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	box-sizing: border-box;
+}
+#history .section-2-1{
+	display: inline-block;
+	float: left;
+	width: 1em;
+	height: 1em;
+	margin: 1em 0px -2em -0.5em;
+	border: 1px solid #f1efa7;
+	border-radius: 100%;
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+}
+#history .section-2-1-1{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	box-sizing: border-box;
+	background-color: #f1efa7;
+}
+#history .section-2-2-1{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-color: #f1efa7;
+	height: 1.2em;
+	box-sizing: border-box;
+}
+#history .section-2-2-2{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-color: #f1efa7;
+	box-sizing: border-box;
+}
+#history .section-2-2-2-1{
+	clear: both;
+	margin: -0.42em 0px 0px 1.6em;
+	padding-bottom: 0.2em;
+	font-size: 1em;
+	color: #454545;
+	font-family: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	box-sizing: border-box;
+}
+#history .section-2-2-2-1 section{
+	text-indent: 2em;
+}
+#activity .row{
+	margin: auto;
+}
+#activity h6{
+	margin-top: -10px;
+	text-align: center;
+	font-size: 1.4em;
+}
+#activity .section{
+	border: none;
+	margin: 0.5em 0px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+#activity .section-1{
+	width: 100%;
+	line-height: 1.2em;
+	border: 2px solid #2845b0;
+	border-radius: 0.8em;
+	color: #eee;
+	box-sizing: border-box;
+	background-color: rgba(46,24,26,0.8);
+}
+#activity .section-left{
+	width: 0.5em;
+	height: 0.5em;
+	float: left;
+	border-radius: 100%;
+	box-sizing: border-box;
+	background-color: #2845b0;
+}
+#activity .section-right{
+	width: 0.5em;
+	height: 0.5em;
+	float: right;
+	border-radius: 100%;
+	box-sizing: border-box;
+	background-color: #2845b0;
+}
+#activity .section-clear{
+	clear: both;
+	box-sizing: border-box;
+}
+#activity .section p{
+	text-indent: 2em;
+}
+@media all and (max-width: 639px){
+
+}
+@media all and (max-width: 520px){
+#concert img{
+	display: block;
+	margin: auto;
+	width: 98%;
+	height: auto;
+}
+#history .section-2-2-2-1 section{
+	text-indent: 0;
+}
+}
